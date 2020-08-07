@@ -1,0 +1,44 @@
+{"intents": [
+    {
+        "tag": "greeting",
+        "patterns": ["Hi there", "How are you?", "Is anyone there?", "Hey", "Hola", "Hello"],
+        "responses": ["Hello, thanks for asking", "Good to see you again", "Hi! I am fine. What about you?", "Hi there! How can I help you?"],
+        "context": [""]
+    },
+    {
+        "tag": "Nice",
+        "patterns": ["I am fine too.", "I am well"],
+        "responses": ["Pleased to hear that", "That's Great"],
+        "context": [""]
+    },
+    {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, Bye"],
+        "responses": ["See you!", "Goodbye! Take care","Have a nice day", "Bye, Come back again."],
+        "context": [""]
+    },
+    {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, Thanks", "Thanks for helping me"],
+        "responses": ["Happy to help!", "Any Time!", "My Pleasure", "You are Welcome"],
+        "context": [""]
+    },
+    {
+        "tag": "noanswer",
+        "patterns": [],
+        "responses": ["Sorry, can't understand you", "Please give me more info"],
+        "context": [""]
+    },
+    {
+        "tag": "options",
+        "patterns": ["How you could help me?", "What you can do?", "What help you can provide?"],
+        "responses": ["You can ask me anything.", "I can tell you everything you need"],
+        "context": [""]
+    },
+    {
+        "tag": "dish",
+        "patterns": ["Which is your favourite dish?", "Suggest me a dish.", "What should I make today?"],
+        "responses": ["Pizza", "Masala dosa","omelette"],
+        "context": [""]
+    }
+]}
