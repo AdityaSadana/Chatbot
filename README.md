@@ -11,5 +11,5 @@ Steps to run in your local machine: <br/>
 (3) Running Application <br/><br/>
   `python chatapp.py`<br/><br/>
   
-An interface will open in which you can enter your queries.
-![Screenshot][Capture.jpg]
+An interface will open in which you can enter your queries.<br/>
+![Screenshot](Capture.JPG)
