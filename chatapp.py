@@ -1,4 +1,6 @@
 import nltk
+nltk.download('punkt')
+nltk.download('wordnet')
 from nltk.stem import WordNetLemmatizer
 lemmatizer=WordNetLemmatizer()
 import pickle
@@ -53,7 +55,6 @@ def chatbot_response(text):
     res=getResponse(ints, intents)
     return res
 
-import tkinter
 from tkinter import *
 
 def send():
@@ -71,11 +72,12 @@ def send():
         ChatLog.yview(END)
 
 base=Tk()
-base.title("Hello")
+base.title("Chatbot")
 base.geometry("400x500")
 base.resizable(width=FALSE, height=FALSE)
 
 ChatLog=Text(base,bd=0,bg="white",height="8",width="50",font="Arial")
+ChatLog.insert(END, "Bot: Hi, I am your Chatbot!"+"\n\n")
 ChatLog.config(state=DISABLED)
 
 scrollbar=Scrollbar(base, command=ChatLog.yview, cursor="heart")

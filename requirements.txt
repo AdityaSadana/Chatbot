@@ -1,0 +1,5 @@
+tensorflow
+nltk
+pickle-mixin
+numpy
+tk
